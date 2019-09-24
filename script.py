@@ -27,7 +27,7 @@ cipher_text = "alp gwcsepul gtavaf, nlv prgpbpsu mb h jcpbyvdlq, ipltga rv glniy
 
 def sanitize_string(input_string):
     """Sanitizes a given string and returns a string with only alphabetical characters"""
-
+    input_string = input_string.lower()
     return ''.join(filter(str.isalpha, input_string))
 
 
